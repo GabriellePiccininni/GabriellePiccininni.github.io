@@ -1,0 +1,86 @@
+.Section2 {
+	background: #e1ecf4;
+	height: 60rem;
+	width: 90%;
+	margin: 5rem 8rem 5rem 8rem;
+} 
+
+.Section3 {
+	background: #F7A08B;
+	height: 40rem;
+	width: 90%;
+	margin: 5rem 8rem 5rem 8rem;
+}
+
+.Section4 {
+	background: #689197;
+	height: 40rem;
+	width: 90%;
+	margin: 5rem 8rem 5rem 8rem;
+}
+
+
+.patternBox{
+	height:40rem;
+	width: 7rem;
+	float: left;
+}
+
+.Section3 > .patternBox{
+	background-image: url("../images/patterns/redleaves.jpg");
+}
+
+.Section4 > .patternBox{
+	background-image: url("../images/patterns/greencircles.jpg");
+}
+
+
+.container{
+	padding-top: 11rem;
+	padding-bottom: 2rem;
+}
+
+.thumbnail{
+	background: none;
+	display: block;
+	border-radius: 50%;
+	border-color: #FFFFFF;
+	border-width: .5rem;
+	float: none;
+	width: 25rem;
+	height: 25rem;
+	margin: 5rem;	
+}
+
+img {
+	margin-top: 3.5rem;
+	border-radius: 50%
+}
+
+.thumbnail.left:hover { 
+    border-color: #F7A08B;
+    border-style: dotted;
+}
+
+.thumbnail.middle:hover { 
+    border-color: #1894B8;
+    border-style: dotted;
+}
+
+.thumbnail.right:hover { 
+    border-color: #689197;
+    border-style: dotted;
+}
+
+
+.footer{
+	background-color: #e1ecf4;
+	color: black;
+	padding: 1.25rem;
+	font-family:  'Poiret One', cursive;
+	font-size: 1rem;
+	letter-spacing: .6rem;
+	font-weight: 700;
+	text-align: center;
+	border-top: 0.5rem solid #197891;
+}

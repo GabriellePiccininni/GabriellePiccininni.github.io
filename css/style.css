@@ -1,0 +1,269 @@
+* {
+	box sizing: border-box;
+}
+body{
+	color: black;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+p{
+	font-family: "Roboto";
+	font-size: 1.5rem;
+}
+
+h2{
+	text-align: left;
+	font-family: 'Poiret One', cursive;
+	font-size: 3rem;
+	letter-spacing: 2rem;
+	padding-top: .5rem;
+}
+
+h3{
+	font-family: 'Poiret One', cursive;	
+	font-weight: 500;
+	padding: .5rem 0 1rem 0;
+	letter-spacing: 1rem;
+}
+
+form {
+	width: 50%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+
+input, textarea {
+	width: 100%;
+    padding: 1em;
+    display: block;
+    margin: 0 0 1em;
+    max-width: 100%;
+    border: 1px solid #ccc;
+}
+
+input[type=submit]{
+	color: #FFFFFF;
+    border: none;
+    padding: 1em;
+    font-weight: 700;
+    margin-top: 20px;
+    background: black;
+    text-transform: uppercase;
+    transition: background .2s ease-out;
+}
+
+
+.header {
+	padding: 0rem 3rem;
+	font-size: 6rem;
+	font-weight: 800;
+	background-color: #e1ecf4;
+	color: black;
+	text-align: left;
+	font-family: 'Poiret One', cursive;
+	letter-spacing: 1rem;
+}
+
+.descriptors{
+	padding: 24rem 0 15rem 0;
+	/*box-shadow: inset 0 0 0 1000px rgba(255,255,255, 0.3);*/
+}
+
+.descriptors p{
+	display: inline;
+	font-family: 'lato', sans-serif;
+	font-size: 4rem;
+	font-weight: 600;
+	color: #e1ecf4;
+	text-align: center;
+	letter-spacing: 1rem;
+	color: #FBFBF0;
+	text-shadow: 2px 2px 1px black;
+}
+
+i{
+	font-size: 1px;
+	padding: 0 1.7rem 0 1.7rem;
+}
+
+ul, menu, dir {
+	    -webkit-padding-start: 100px;
+
+}
+ul {
+	width: 100%;
+	font-size: 18px;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	margin: .75rem;
+	font-family: 'Poiret One', cursive;
+	font-size: 1.75rem;
+	transform: rotate(-20deg);
+}
+
+
+/*.socialMedia{
+	padding: 18rem 0 18rem 0;
+}
+*/
+.socialMedia img{
+	margin: 0 1rem 0 1rem;
+}
+
+.Section1 {
+	width: 100%;
+	height: 500px;
+	margin: 10rem 0 10rem 0;
+}
+
+.im {
+	background-image: url("../images/DSCN0760.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 56rem;
+}
+
+#sectionAbout {
+	background: #e1ecf4;
+	width: 100%;
+	padding-bottom: 2.5rem;
+} 
+
+#sectionAbout p{
+	padding: 0 20rem 1rem 20rem;
+}
+
+#sectionWork{
+	background: #A7C1C0;
+	width: 100%;
+	padding-bottom: 2.5rem;
+}
+
+#sectionResume{
+	background: #e1ecf4;
+	width: 100%;
+	padding-bottom: 2.5rem;
+}
+
+#sectionResume p{
+	padding: 0 20rem 1rem 20rem;
+}
+
+
+.title{
+	font-style: italic;
+	font-weight: 700;
+	font-size: 1.6rem;
+}
+
+.company{
+	font-style: italic
+}
+#sectionContact{
+	background: #A7C1C0;
+	width: 100%;
+}
+
+.container{
+	padding: 2rem;
+}
+
+.thumbnail{
+	background: none;
+	display: block;
+	border-radius: 50%;
+	border-color: #FFFFFF;
+	border-width: .5rem;
+	float: none;
+	width: 20rem;
+	height: 20rem;
+}
+.col-xs-4{
+	padding-left: 7rem;
+}
+img {
+	margin-top: 1rem;
+	border-radius: 50%
+}
+
+.thumbnail.left:hover { 
+    border-color: #F7A08B;
+    border-style: dotted;
+}
+
+.thumbnail.middle:hover { 
+    border-color: #1894B8;
+    border-style: dotted;
+}
+
+.thumbnail.right:hover { 
+    border-color: #689197;
+    border-style: dotted;
+}
+
+.navbar-default{
+	background-color: transparent;
+	border-radius: 0;
+	box-shadow: 0 5px 20px -2px #A7C1C0;
+}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover{
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	/*text-shadow: 2px 2px #F6BA35;*/
+	color: #F6BA35;
+}
+.dropdown open{
+	background-color: transparent;
+}
+
+.in {
+	width: 85%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.hide{
+	display: none;
+}
+
+.showThisOnClick{
+	display: inline block;
+	color: #A8A7A7; 
+	font-weight: 300;
+}
+
+.readMore, .readLess {
+	display: block;
+}
+
+.readMore a, .readLess a{
+	color: #000000;
+	font-weight: 600;
+}
+
+.readMore a:hover, .readLess a:hover{
+	text-decoration: none;
+	color: #F6BA35;
+
+}	
+footer{
+	border-top: solid #000000 1rem;
+	padding: 2rem 0 2rem 0;
+}
+/*
+other colors: 
+blue: #1894B8;
+salmon: #F37B7D;
+grey blue: #A7C1C0;
