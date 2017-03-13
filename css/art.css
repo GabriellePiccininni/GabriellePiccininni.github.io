@@ -1,0 +1,35 @@
+.Section5 {
+	background: #d4d8e4;
+	height: auto;
+	width: 90%;
+	margin: 5rem 8rem 5rem 8rem;
+}
+
+.patternBox{
+	height: auto;
+	width: 2%;
+	border-bottom-right-radius: 100rem;
+
+}
+
+.flex-container {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: flex-start;
+
+}
+
+.flex-item img{
+	padding: 0;
+	width: 230px;
+	height: auto;
+	margin-top: 10px;
+	align-items: flex-start;
+
+
+}
+
+

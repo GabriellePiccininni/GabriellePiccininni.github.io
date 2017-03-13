@@ -1,6 +1,7 @@
 * {
 	box sizing: border-box;
 }
+
 body{
 	color: black;
     font-size: 1rem;
@@ -56,7 +57,7 @@ input[type=submit]{
 }
 
 
-.header {
+/*.header {
 	padding: 0rem 3rem;
 	font-size: 6rem;
 	font-weight: 800;
@@ -65,7 +66,7 @@ input[type=submit]{
 	text-align: left;
 	font-family: 'Poiret One', cursive;
 	letter-spacing: 1rem;
-}
+}*/
 
 .descriptors{
 	padding: 24rem 0 15rem 0rem;
@@ -89,7 +90,7 @@ i{
 	padding: 0 1.7rem 0 1.7rem;
 }
 
-ul, menu, dir {
+/*ul, menu, dir {
 	    -webkit-padding-start: 100px;
 
 }
@@ -104,9 +105,8 @@ li {
 	margin: .75rem;
 	font-family: 'Poiret One', cursive;
 	font-size: 1.75rem;
-	transform: rotate(-20deg);
 }
-
+*/
 
 /*.socialMedia{
 	padding: 18rem 0 18rem 0;
@@ -206,7 +206,7 @@ li {
     border-style: dotted;
 }
 
-.navbar-default{
+/*.navbar-default{
 	background-color: transparent;
 	border-radius: 0;
 	box-shadow: 0 5px 20px -2px #A7C1C0;
@@ -215,15 +215,15 @@ li {
 .navbar-default .navbar-nav>.active>a:focus, 
 .navbar-default .navbar-nav>.active>a:hover{
 	background-color: transparent;
-}
+}*/
 
-.navbar-default .navbar-nav>li>a:hover {
-	/*text-shadow: 2px 2px #F6BA35;*/
+/*.navbar-default .navbar-nav>li>a:hover {
 	color: #F6BA35;
-}
-.dropdown open{
+}*/
+
+/*.dropdown open{
 	background-color: transparent;
-}
+}*/
 
 .in {
 	width: 85%;
@@ -255,10 +255,8 @@ li {
 	color: #F6BA35;
 
 }	
-footer{
-	border-top: solid #000000 1rem;
-	padding: 2rem 0 2rem 0;
-}
+
+
 /*
 other colors: 
 blue: #1894B8;
