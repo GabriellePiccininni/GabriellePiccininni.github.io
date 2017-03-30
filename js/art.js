@@ -30,6 +30,5 @@
     $(this).find(".fa").css("margin-left", ".75rem");
   });
 
-
 });
 
