@@ -1,4 +1,4 @@
-$("document").ready(function(){
+$(document).ready(function(){
 	$(".readMore.one").click(function(event){
 		console.log('happening');
 		event.preventDefault();
